@@ -8,10 +8,10 @@
 UAuraAttributeSet::UAuraAttributeSet()
 {
 	// console에 showdebug abilitysystem을 입력하여 값을 볼 수 있다.
-	InitHealth(100.f);
-	InitMaxHealth(1001.f);
-	InitMana(100.f);
-	InitMaxMana(1001.f);
+	InitHealth(50.f);
+	InitMaxHealth(100.f);
+	InitMana(50.f);
+	InitMaxMana(100.f);
 }
 
 void UAuraAttributeSet::GetLifetimeReplicatedProps(TArray<class FLifetimeProperty>& OutLifetimeProps) const
